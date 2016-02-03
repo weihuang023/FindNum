@@ -38,7 +38,7 @@ public class BinarySearch {
 				high = mid -1;
 				mid = (high + low)/2;
 			}
-		if (low > high)
-			System.out.println(search+" is not present in the list.\n");
+		if (low > high) 
+			return;	
 	}
 }
